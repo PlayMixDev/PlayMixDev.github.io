@@ -2,8 +2,15 @@
   "IdUrls": [
     {
       "Id": "MainMenuIcon",
-      "Urls": [
-        "https://PlayMixDev.github.io/igroutka.ru/images/Icon_2048.PNG"
+      "Images": [
+        "Icon_2048.PNG"
+      ],
+      "Id": "Ads",
+      "Images": [
+        "1.PNG",
+        "2.PNG",
+        "3.PNG",
+        "4.PNG"
       ]
     }
   ]
