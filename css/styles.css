@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .Container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .GameList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .GameItem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .GameIcon {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .GameTitle {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .GameDescription {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .StoreButton img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  /* Адаптивная вёрстка */
+  @media (max-width: 600px) {
+    .GameItem {
+      margin: 10px 0;
+    }
+  }
